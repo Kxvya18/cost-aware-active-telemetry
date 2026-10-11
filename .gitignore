@@ -10,7 +10,7 @@ __pycache__/
 *.ckpt
 *.pkl
 *.zip
-data/
+/data/
 raw/
 cache/
 checkpoints/
