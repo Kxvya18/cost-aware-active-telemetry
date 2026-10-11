@@ -1,0 +1,23 @@
+{
+  "900": {
+    "episodes": 45,
+    "unique_origins": 40,
+    "events": 647
+  },
+  "1800": {
+    "episodes": 28,
+    "unique_origins": 26,
+    "events": 685
+  },
+  "3600": {
+    "episodes": 19,
+    "unique_origins": 18,
+    "events": 690
+  },
+  "7200": {
+    "episodes": 16,
+    "unique_origins": 16,
+    "events": 699
+  }
+}
+

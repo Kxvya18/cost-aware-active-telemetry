@@ -1,0 +1,17 @@
+{
+  "data_dir": "data/raw/lanl",
+  "processed_dir": "data/processed/lanl",
+  "output_dir": "outputs/lanl_active_telemetry",
+  "episode_gap_seconds": 900,
+  "episode_gap_sensitivity_seconds": [900, 1800, 3600, 7200],
+  "history_windows_seconds": [3600, 21600, 86400, 604800],
+  "post_window_seconds": 21600,
+  "budgets_percent": [0.5, 1, 2, 5, 10, 25],
+  "candidate_cap": 20000,
+  "split_fractions": [0.6, 0.2, 0.2],
+  "seeds": [7, 19, 42, 73, 101],
+  "bootstrap_repetitions": 2000,
+  "modality_cost": {"auth": 1.0, "dns": 1.4, "flow": 2.0, "proc": 1.7},
+  "fisher_scale": 25.0,
+  "alpha": 1.0
+}

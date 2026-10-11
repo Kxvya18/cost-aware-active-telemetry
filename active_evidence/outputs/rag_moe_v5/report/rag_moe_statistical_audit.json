@@ -1,0 +1,153 @@
+{
+  "model": "Reliability-Aware Graph Mixture of Experts",
+  "parameter_count": 682,
+  "controlled_episodes": 108,
+  "lanl_episodes": 20,
+  "training_seeds": [
+    7,
+    19,
+    42,
+    73,
+    101
+  ],
+  "conditions": [
+    "complete",
+    "auth_only",
+    "dns_only",
+    "random50",
+    "hub50"
+  ],
+  "probability_metrics_valid": true,
+  "claim_rows": [
+    {
+      "dataset": "controlled",
+      "condition": "complete",
+      "pairs": 540,
+      "delta_rag_temporal": -0.002469135802469136,
+      "ci_low": -0.011111111111111112,
+      "ci_high": 0.0,
+      "delta_unconditional_temporal": -0.01741769547325103,
+      "delta_fixed_temporal": -0.002469135802469136,
+      "rag_win_fraction": 0.0,
+      "rag_loss_fraction": 0.003703703703703704,
+      "gate_mean": 0.16533780080041008
+    },
+    {
+      "dataset": "controlled",
+      "condition": "auth_only",
+      "pairs": 540,
+      "delta_rag_temporal": 0.046520895282788514,
+      "ci_low": -0.08513562454269322,
+      "ci_high": 0.17766097691778865,
+      "delta_unconditional_temporal": 0.003403261273857057,
+      "delta_fixed_temporal": 0.00510343742739839,
+      "rag_win_fraction": 0.2796296296296296,
+      "rag_loss_fraction": 0.1814814814814815,
+      "gate_mean": 0.2710030854652494
+    },
+    {
+      "dataset": "controlled",
+      "condition": "dns_only",
+      "pairs": 540,
+      "delta_rag_temporal": 0.05457164074506327,
+      "ci_low": -0.0491278186869798,
+      "ci_high": 0.17616026987250255,
+      "delta_unconditional_temporal": 0.049098471099225854,
+      "delta_fixed_temporal": 0.049098471099225854,
+      "rag_win_fraction": 0.2962962962962963,
+      "rag_loss_fraction": 0.20555555555555555,
+      "gate_mean": 0.2703627483187153
+    },
+    {
+      "dataset": "controlled",
+      "condition": "random50",
+      "pairs": 540,
+      "delta_rag_temporal": 0.050531778097635524,
+      "ci_low": 0.023664105583435163,
+      "ci_high": 0.08426805632376437,
+      "delta_unconditional_temporal": 0.09360221169679239,
+      "delta_fixed_temporal": 0.05831096576800219,
+      "rag_win_fraction": 0.387037037037037,
+      "rag_loss_fraction": 0.08148148148148149,
+      "gate_mean": 0.2694179084611177
+    },
+    {
+      "dataset": "controlled",
+      "condition": "hub50",
+      "pairs": 540,
+      "delta_rag_temporal": 0.1546759014250874,
+      "ci_low": 0.08003498768180757,
+      "ci_high": 0.23934609953098723,
+      "delta_unconditional_temporal": 0.18997666518023723,
+      "delta_fixed_temporal": 0.1721138035917444,
+      "rag_win_fraction": 0.40370370370370373,
+      "rag_loss_fraction": 0.07777777777777778,
+      "gate_mean": 0.2679384576795807
+    },
+    {
+      "dataset": "LANL",
+      "condition": "complete",
+      "pairs": 100,
+      "delta_rag_temporal": 0.004526357584078964,
+      "ci_low": -0.0049621316852388655,
+      "ci_high": 0.021390325005950797,
+      "delta_unconditional_temporal": 0.0028109269240567196,
+      "delta_fixed_temporal": 0.003824249380719117,
+      "rag_win_fraction": 0.48,
+      "rag_loss_fraction": 0.49,
+      "gate_mean": 0.38413444101810457
+    },
+    {
+      "dataset": "LANL",
+      "condition": "auth_only",
+      "pairs": 100,
+      "delta_rag_temporal": -0.001496694308733818,
+      "ci_low": -0.03884436693511803,
+      "ci_high": 0.027929285625817223,
+      "delta_unconditional_temporal": -0.0028677700513205394,
+      "delta_fixed_temporal": -0.002867770151772063,
+      "rag_win_fraction": 0.5,
+      "rag_loss_fraction": 0.48,
+      "gate_mean": 0.3682284042239189
+    },
+    {
+      "dataset": "LANL",
+      "condition": "dns_only",
+      "pairs": 100,
+      "delta_rag_temporal": 0.034073088235741074,
+      "ci_low": 0.0012598021109456643,
+      "ci_high": 0.10261501777653415,
+      "delta_unconditional_temporal": 0.014663094630504312,
+      "delta_fixed_temporal": 0.014663102020113578,
+      "rag_win_fraction": 0.65,
+      "rag_loss_fraction": 0.33,
+      "gate_mean": 0.40646453157067297
+    },
+    {
+      "dataset": "LANL",
+      "condition": "random50",
+      "pairs": 100,
+      "delta_rag_temporal": 0.00410184898045469,
+      "ci_low": -0.00015187866691689236,
+      "ci_high": 0.019819444498619894,
+      "delta_unconditional_temporal": 0.007913594565126006,
+      "delta_fixed_temporal": 0.003863200426042702,
+      "rag_win_fraction": 0.64,
+      "rag_loss_fraction": 0.34,
+      "gate_mean": 0.39789009153842925
+    },
+    {
+      "dataset": "LANL",
+      "condition": "hub50",
+      "pairs": 100,
+      "delta_rag_temporal": 0.02089711556165828,
+      "ci_low": 0.0008560440939567682,
+      "ci_high": 0.054146820275699004,
+      "delta_unconditional_temporal": 0.01891135924428301,
+      "delta_fixed_temporal": 0.01799310565338058,
+      "rag_win_fraction": 0.73,
+      "rag_loss_fraction": 0.25,
+      "gate_mean": 0.352123387157917
+    }
+  ]
+}

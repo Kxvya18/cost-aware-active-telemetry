@@ -1,0 +1,9 @@
+{
+  "processed_dir": "data/processed/lanl",
+  "output_dir": "outputs/lanl_active_telemetry",
+  "budgets_percent": [0.5, 1, 2, 5, 10, 25],
+  "evaluation_candidate_cap": 1000,
+  "seeds": [7, 19, 42, 73, 101],
+  "modality_cost": {"auth": 1.0, "dns": 1.4, "flow": 2.0, "proc": 1.7},
+  "fisher_scale": 25.0
+}

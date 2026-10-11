@@ -1,0 +1,14 @@
+{
+  "episodes_total": 45,
+  "candidate_recalled": 40,
+  "candidate_recall": 0.8888888888888888,
+  "rolling_folds": 4,
+  "episode_instances": 100,
+  "candidate_cap": 20000,
+  "curvature_scale_median": 6285957.900878036,
+  "aubc_delta_curvature_minus_entropy": -1.066006552392357e-06,
+  "aubc_ci_low": -4.029833491371021e-06,
+  "aubc_ci_high": 5.201123582599641e-07,
+  "aubc_permutation_p": 0.9328067193280672,
+  "central_claim_supported": false
+}

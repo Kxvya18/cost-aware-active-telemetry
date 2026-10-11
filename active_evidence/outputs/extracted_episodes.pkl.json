@@ -1,0 +1,18 @@
+{
+  "gap_seconds": 900,
+  "calibration_seconds": 3600,
+  "fit_seconds": 3600,
+  "post_seconds": 7200,
+  "episodes": 45,
+  "unique_origins": 40,
+  "audit": {
+    "auth": {
+      "rows_scanned": 462004295,
+      "post_window_events": 83065041
+    },
+    "dns": {
+      "rows_scanned": 3407822,
+      "post_window_events": 1028275
+    }
+  }
+}
